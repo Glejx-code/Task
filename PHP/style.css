@@ -1,0 +1,85 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    text-align: start;
+    margin-left: 85px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 15%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.image-container img {
+    max-width: 1000px;
+    max-height: 1000px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.button {
+    margin-left: 85px;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subheading {
+    margin-top: 10px;
+    margin-left: 85px;
+    font-size: 26px;
+    text-align: start;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.image-heading {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 85px;
+    font-size: 24px;
+    text-align: start;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.text-wrapper form {
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.text-wrapper form input[type="text"] {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
