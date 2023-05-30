@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/backend.php"
+  status = 200
