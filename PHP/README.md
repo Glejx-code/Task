@@ -1,4 +1,4 @@
-Wprowadzenie:;
+Wprowadzenie:
 
 Ten dokument opisuje proces integracji ChatGPT z interaktywną generacją obrazów na stronie internetowej przy użyciu interfejsu API. Wykorzystanie API pozwoli na komunikację między stroną internetową a modelem ChatGPT, co umożliwi generowanie obrazów na podstawie wprowadzonego tekstu.
 
